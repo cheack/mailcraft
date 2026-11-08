@@ -549,6 +549,8 @@ fn message() -> impl Strategy<Value = Message> {
             answers: None,
             kept: None,
             original: None,
+            parts_removed: false,
+            original_wanted: false,
         },
     )
 }
